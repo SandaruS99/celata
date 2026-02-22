@@ -54,7 +54,7 @@ const VideoGallery = () => {
     return (
         <section className="pt-8 pb-0 md:py-24 bg-white">
             <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
+                <div className="flex flex-row justify-between items-center md:items-end mb-12 gap-4">
                     <div>
                         <div className="mb-4 inline-block text-sm font-bold tracking-widest uppercase text-brand-red-light">Platform Walkthrough</div>
                         <h3 className="text-2xl font-bold text-brand-black mb-4">Explore GeoBizz</h3>
