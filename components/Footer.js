@@ -16,7 +16,7 @@ const Footer = () => {
                     {/* Subtle dot pattern background for the red banner */}
                     <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(#ffffff 2px, transparent 2px)", backgroundSize: "16px 16px" }}></div>
 
-                    <h3 className="relative z-10 text-2xl font-semibold text-white mb-6 md:mb-0">
+                    <h3 className="relative z-10 text-2xl font-semibold text-white mb-6 md:mb-0 text-center md:text-left">
                         Would You Like to Be a Partner ?
                     </h3>
                     <button className="relative z-10 flex items-center gap-2 rounded bg-white px-8 py-3 text-sm font-bold text-brand-red-light hover:bg-brand-blue-deep hover:text-white transition-all duration-300 uppercase tracking-wider group">
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             {/* Main Footer Content */}
-            <div className="relative bg-brand-blue-deep pt-32 pb-6 px-6 overflow-hidden">
+            <div className="relative bg-brand-blue-deep pt-56 md:pt-32 pb-6 px-6 overflow-hidden">
                 {/* Architectural Blueprint Background Overlay */}
                 <div className="absolute inset-0 opacity-10 pointer-events-none" style={{
                     backgroundImage: "linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px)",
@@ -195,7 +195,7 @@ const Footer = () => {
                                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
                             </a>
                         </div>
-                        <p className="text-sm font-medium text-white/90 order-2 md:order-2">
+                        <p className="text-sm font-medium text-white/90 order-2 md:order-2 text-center md:text-right">
                             Copyright © 2026 Celata tech (Pvt) Ltd | All Rights Reserved
                         </p>
                     </div>
