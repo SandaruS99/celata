@@ -39,7 +39,7 @@ export default function Home() {
               <div className="mt-6 h-1 w-16 bg-brand-blue-deep"></div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               <FeatureCard
                 title="Geographical Intelligence"
                 desc="Proprietary GIS platforms designed for large-scale data visualization and spatial analytics."
