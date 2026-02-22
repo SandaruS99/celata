@@ -52,7 +52,7 @@ const VideoGallery = () => {
     ];
 
     return (
-        <section className="pt-8 pb-8 md:py-24 bg-white">
+        <section className="py-16 md:py-24 bg-white">
             <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
                 <div className="flex flex-row justify-between items-center md:items-end mb-12 gap-4">
                     <div>
