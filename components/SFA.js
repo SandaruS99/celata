@@ -7,7 +7,7 @@ const SFA = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div className="lg:order-1">
                         <div className="mb-4 inline-block text-sm font-bold tracking-widest uppercase text-brand-red-light">Mobile Solutions</div>
-                        <h2 className="text-3xl lg:text-4xl font-extrabold text-brand-black mb-6">
+                        <h2 className="text-2xl lg:text-3xl font-bold text-brand-black mb-6">
                             Sales Force Automation Mobile App
                         </h2>
                         <div className="h-1 w-16 bg-brand-blue-deep mb-8"></div>
@@ -33,7 +33,7 @@ const SFA = () => {
 
                     <div className="lg:order-2 flex justify-center">
                         <img
-                            src="/images/sfa-phones.png"
+                            src="/images/sales-force-app.png"
                             alt="SFA Mobile Application"
                             className="w-full max-w-md h-auto drop-shadow-xl"
                         />

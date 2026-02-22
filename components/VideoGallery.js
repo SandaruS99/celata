@@ -1,7 +1,7 @@
 import React from "react";
 
 const VideoCard = ({ title, highlight, image }) => (
-    <div className="group border border-neutral-200 bg-white hover:shadow-md transition-shadow">
+    <div className="group border border-neutral-200 bg-white hover:shadow-md transition-shadow cursor-pointer">
         {/* Thumbnail area */}
         <div className="aspect-video relative overflow-hidden bg-neutral-900">
             <img
@@ -10,8 +10,8 @@ const VideoCard = ({ title, highlight, image }) => (
                 className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
             />
             {/* Play Button Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-transparent transition-colors">
-                <div className="h-16 w-16 bg-brand-blue-deep flex items-center justify-center text-white">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/20 transition-colors">
+                <div className="h-16 w-16 bg-brand-blue-deep rounded-none group-hover:bg-brand-red-light group-hover:rounded-full transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] flex items-center justify-center text-white transform group-hover:scale-110">
                     <svg className="h-6 w-6 ml-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                     </svg>
@@ -23,11 +23,11 @@ const VideoCard = ({ title, highlight, image }) => (
         <div className="p-6">
             <div className="flex items-center gap-2 mb-2">
                 <span className="h-4 w-1 bg-brand-red-light"></span>
-                <span className="text-brand-black font-bold text-sm tracking-wide">
+                <span className="text-brand-black font-semibold text-sm tracking-wide">
                     {highlight}
                 </span>
             </div>
-            <h4 className="text-lg font-bold text-brand-black">{title}</h4>
+            <h4 className="text-lg font-semibold text-brand-black">{title}</h4>
         </div>
     </div>
 );
@@ -37,17 +37,17 @@ const VideoGallery = () => {
         {
             title: "Exploring GeoBizz Application",
             highlight: "GeoBizz Application",
-            image: "https://images.unsplash.com/photo-1542617306-3847842c676c?q=80&w=800&auto=format&fit=crop"
+            image: "https://i.ytimg.com/vi/1GnUL9FCQnk/hqdefault.jpg"
         },
         {
             title: "Exploring GeoBizz Geo-filter",
             highlight: "Geo-filter",
-            image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=800&auto=format&fit=crop"
+            image: "https://i.ytimg.com/vi/1GnUL9FCQnk/hqdefault.jpg"
         },
         {
             title: "Exploring GeoBizz Proximity",
             highlight: "GeoBizz Proximity",
-            image: "https://images.unsplash.com/photo-1518186285589-2f771f8254b8?q=80&w=800&auto=format&fit=crop"
+            image: "https://i.ytimg.com/vi/1GnUL9FCQnk/hqdefault.jpg"
         }
     ];
 
@@ -57,7 +57,7 @@ const VideoGallery = () => {
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
                     <div>
                         <div className="mb-4 inline-block text-sm font-bold tracking-widest uppercase text-brand-red-light">Platform Walkthrough</div>
-                        <h3 className="text-3xl font-extrabold text-brand-black mb-4">Explore GeoBizz</h3>
+                        <h3 className="text-2xl font-bold text-brand-black mb-4">Explore GeoBizz</h3>
                         <div className="h-1 w-16 bg-brand-blue-deep"></div>
                     </div>
 

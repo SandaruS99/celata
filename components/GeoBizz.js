@@ -20,7 +20,7 @@ const GeoBizz = () => {
                     {/* Content Section */}
                     <div>
                         <div className="mb-4 inline-block text-sm font-bold tracking-widest uppercase text-brand-red-light">Flagship Product</div>
-                        <h2 className="text-3xl lg:text-4xl font-extrabold text-brand-black mb-6">
+                        <h2 className="text-2xl lg:text-3xl font-bold text-brand-black mb-6">
                             GeoBizz Platform
                         </h2>
 
