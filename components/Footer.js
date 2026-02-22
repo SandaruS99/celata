@@ -8,7 +8,7 @@ const FooterIconBox = ({ children }) => (
 
 const Footer = () => {
     return (
-        <footer className="relative mt-20">
+        <footer className="relative">
 
             {/* Top Partner Banner */}
             <div className="absolute left-0 right-0 -top-10 mx-auto w-full max-w-5xl px-6 z-10">
@@ -42,7 +42,7 @@ const Footer = () => {
 
                         {/* Explore (USA) */}
                         <div>
-                            <h4 className="text-xl font-bold text-white mb-2">USA Office</h4>
+                            <h4 className="text-xl font-semibold text-white mb-2">USA Office</h4>
                             <div className="h-1 w-8 bg-brand-red-light mb-8 flex gap-1">
                                 <div className="h-full w-2/3 bg-brand-red-light"></div>
                                 <div className="h-full w-1 cubic-bezier bg-brand-red-light"></div>
@@ -88,7 +88,7 @@ const Footer = () => {
 
                         {/* Explore (Sri Lanka) */}
                         <div>
-                            <h4 className="text-xl font-bold text-white mb-2">Sri Lanka Office</h4>
+                            <h4 className="text-xl font-semibold text-white mb-2">Sri Lanka Office</h4>
                             <div className="h-1 w-8 bg-brand-red-light mb-8 flex gap-1">
                                 <div className="h-full w-2/3 bg-brand-red-light"></div>
                                 <div className="h-full w-1 cubic-bezier bg-brand-red-light"></div>
@@ -119,7 +119,7 @@ const Footer = () => {
 
                         {/* Quick Links */}
                         <div>
-                            <h4 className="text-xl font-bold text-white mb-2">Quick Links</h4>
+                            <h4 className="text-xl font-semibold text-white mb-2">Quick Links</h4>
                             <div className="h-1 w-8 bg-brand-red-light mb-8 flex gap-1">
                                 <div className="h-full w-2/3 bg-brand-red-light"></div>
                                 <div className="h-full w-1 cubic-bezier bg-brand-red-light"></div>
@@ -156,7 +156,7 @@ const Footer = () => {
 
                         {/* Legal */}
                         <div>
-                            <h4 className="text-xl font-bold text-white mb-2">Legal</h4>
+                            <h4 className="text-xl font-semibold text-white mb-2">Legal</h4>
                             <div className="h-1 w-8 bg-brand-red-light mb-8 flex gap-1">
                                 <div className="h-full w-2/3 bg-brand-red-light"></div>
                                 <div className="h-full w-1 cubic-bezier bg-brand-red-light"></div>

@@ -44,7 +44,7 @@ const ClientLogoCloud = () => {
     ];
 
     return (
-        <section className="py-24 bg-[#F8F9FB]">
+        <section className="pt-24 pb-32 bg-[#F8F9FB]">
             <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
 
                 {/* Clients Section */}
