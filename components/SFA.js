@@ -2,7 +2,7 @@ import React from "react";
 
 const SFA = () => {
     return (
-        <section className="py-24 overflow-hidden bg-white">
+        <section className="py-12 md:py-24 overflow-hidden bg-white">
             <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div className="lg:order-1">
