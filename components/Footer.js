@@ -16,12 +16,12 @@ const Footer = () => {
                     {/* Subtle dot pattern background for the red banner */}
                     <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(#ffffff 2px, transparent 2px)", backgroundSize: "16px 16px" }}></div>
 
-                    <h3 className="relative z-10 text-2xl font-bold text-white mb-6 md:mb-0">
+                    <h3 className="relative z-10 text-2xl font-semibold text-white mb-6 md:mb-0">
                         Would You Like to Be a Partner ?
                     </h3>
-                    <button className="relative z-10 flex items-center gap-2 rounded bg-white px-8 py-3 text-sm font-medium text-brand-red-light hover:bg-brand-red-light hover:text-white transition-colors uppercase tracking-wider">
+                    <button className="relative z-10 flex items-center gap-2 rounded bg-white px-8 py-3 text-sm font-bold text-brand-red-light hover:bg-brand-blue-deep hover:text-white transition-all duration-300 uppercase tracking-wider group">
                         Join Now
-                        <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="h-4 w-4 transform transition-transform duration-300 rotate-90" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
                         </svg>
                     </button>

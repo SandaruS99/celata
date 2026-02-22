@@ -37,6 +37,7 @@ const ClientLogoCloud = () => {
     const partners = [
         { name: "KPMG", url: "/images/Logos/kpmg.png" },
         { name: "Kantar", url: "/images/Logos/kantar.png" },
+        { name: "World Bank", url: "/images/Logos/world_bank.png" },
         { name: "Finetech", url: "/images/Logos/finetech.png" },
         { name: "SLTMobitel", url: "/images/Logos/slt_mobitel.png" },
         { name: "LOLC", url: "/images/Logos/lolc.png" }
@@ -71,7 +72,7 @@ const ClientLogoCloud = () => {
                         <div className="h-1 w-16 bg-brand-blue-deep mx-auto lg:mx-0"></div>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
                         {partners.map((partner, i) => (
                             <LogoItem key={i} {...partner} />
                         ))}
